@@ -1,7 +1,7 @@
 const forma = document.querySelector('form');
 const input = document.querySelector('input');
 const izlaz = document.querySelector('p');
-const img = document.querySelector('img')
+const img = document.querySelector('img');
 
 forma.addEventListener('submit', (e) => {
     e.preventDefault();

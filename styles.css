@@ -1,7 +1,7 @@
 .container-fluid {
     background-color: darkslateblue;
     color: lightgoldenrodyellow;
-    max-height: 100vh;
+    height: 100vh;
 }
 
 input::-webkit-outer-spin-button,
