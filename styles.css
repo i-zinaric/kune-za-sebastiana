@@ -1,0 +1,46 @@
+.container-fluid {
+    background-color: darkslateblue;
+    color: lightgoldenrodyellow;
+    height: 100vh;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    width: 320px;
+    max-width: 100%;
+    height: 80px;
+    padding-left: 10px;
+    font-size: 38px;
+    color: darkslateblue;
+    border-radius: 3px;
+    border: 1px solid darkslateblue;
+}
+
+p {
+    font-size: 38px;
+    color: lightgoldenrodyellow;
+}
+
+input:focus{
+    outline: none;
+}
+
+img {
+    position: fixed;
+    bottom: 33px;
+    right: 33px;
+}
+
+.rotation {
+    transform: rotate(45deg);
+}
