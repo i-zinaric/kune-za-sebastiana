@@ -11,5 +11,5 @@ forma.addEventListener('submit', (e) => {
     const konacanIznos = iznosUKn.toFixed(2).replace('.', ',');
     
     izlaz.innerText = `TO JE ${konacanIznos} HRK!`
-    img.classList.add('rotation')
+    img.classList.toggle('rotation')
 })
