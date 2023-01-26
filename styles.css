@@ -1,4 +1,4 @@
-.container-fluid {
+body {
     background-color: darkslateblue;
     color: lightgoldenrodyellow;
 }
@@ -9,6 +9,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 input[type=number] {
+    appearance: none;
     -moz-appearance: textfield;
 }
 
@@ -20,26 +21,50 @@ input {
     height: 80px;
     padding-left: 10px;
     font-size: 38px;
-    color: darkslateblue;
+    color: lightblue;
     border-radius: 3px;
     border: 1px solid darkslateblue;
-}
-
-p {
-    font-size: 38px;
-    color: lightgoldenrodyellow;
+    background-color: black;
 }
 
 input:focus{
     outline: none;
 }
+input::placeholder{
+    color: lightblue;
+}
+
+p {
+    font-size: 38px;
+    color: lightblue;
+}
+
+
+
+button {
+    width: 130px;
+    height: 130px;
+    background-color: darkslateblue;
+    border: none;
+    margin-left: 10px;
+}
 
 img {
-    position: fixed;
-    bottom: 33px;
-    right: 33px;
+    width: 130px;
+    height: 130px;
 }
 
 .rotation {
     transform: rotate(45deg);
+}
+
+
+#iban {
+    font-size: 12px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    color:lightblue;
+
+    position: fixed;
+    bottom:30px;
 }
